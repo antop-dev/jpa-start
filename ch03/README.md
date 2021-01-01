@@ -27,7 +27,7 @@ open class Hotel(
 }
 ```
 
-## 시퀀스 사용 방식 + MariaDB
+## 시퀀스 사용 방식 + MariaDB 10.3↑
 
 https://vladmihalcea.com/mariadb-10-3-database-sequences/
 
@@ -52,7 +52,7 @@ class Review(
 
 ## 테이블 생성
 
-```mariadb
+```sql
 create table room_info
 (
     id          int         not null auto_increment primary key,
