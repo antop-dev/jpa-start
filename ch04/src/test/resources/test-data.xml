@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="user">
+        <column>email</column>
+        <column>name</column>
+        <column>create_date</column>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>최범균</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+    </table>
+
+    <table name="room_info">
+        <column>number</column>
+        <column>name</column>
+        <column>description</column>
+        <column>create_time</column>
+        <row>
+            <value>R101</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+        <row>
+            <value>R102</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+    </table>
+
+    <table name="hotel">
+        <column>id</column>
+        <column>name</column>
+        <column>grade</column>
+        <column>zipcode</column>
+        <column>address1</column>
+        <column>address2</column>
+        <row>
+            <value>H100-01</value>
+            <value>베스트웨스턴 구로호텔</value>
+            <value>STAR4</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 1128-1</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>최고 호텔</value>
+            <value>STAR3</value>
+        </row>
+    </table>
+
+    <table name="id_gen">
+        <column>entity</column>
+        <column>next_id</column>
+        <row>
+            <value>country</value>
+            <value>1</value>
+        </row>
+    </table>
+
+    <table name="city">
+        <column>id</column>
+        <column>name</column>
+    </table>
+
+    <table name="sight">
+        <column>id</column>
+        <column>name</column>
+        <column>kor_zipcode</column>
+        <column>address1</column>
+        <column>address2</column>
+        <column>eng_zipcode</column>
+        <column>eng_addr1</column>
+        <column>eng_addr2</column>
+        <row>
+            <value>99</value>
+            <value>광화문</value>
+            <value>03045</value>
+            <value>서울시 종로구</value>
+            <value>세종로 1-58</value>
+            <value>03045</value>
+            <value>Jongno-gu, Seoul</value>
+            <value>1-58, Sejong-ro</value>
+        </row>
+    </table>
+
+    <table name="sight_detail">
+        <column>sight_id</column>
+        <column>hours_op</column>
+        <column>holidays</column>
+        <column>facilities</column>
+        <row>
+            <value>99</value>
+            <value>09~16시</value>
+            <value>매주 일요일</value>
+            <value>광화문 설명</value>
+        </row>
+    </table>
+
+    <table name="month_charge">
+        <column>hotel_id</column>
+        <column>year_mon</column>
+        <column>charge_amt</column>
+        <column>unpay_amt</column>
+        <row>
+            <value>H100-01</value>
+            <value>201608</value>
+            <value>1000</value>
+            <value>0</value>
+        </row>
+
+    </table>
+</dataset>
