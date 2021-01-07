@@ -52,7 +52,7 @@ class Review(
 
 ## 테이블 생성
 
-```sql
+```mysql
 create table room_info
 (
     id          int         not null auto_increment primary key,
