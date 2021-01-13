@@ -22,3 +22,7 @@ CREATE USER 'jpauser'@'%' IDENTIFIED BY 'jpapass';
 GRANT ALL PRIVILEGES ON jpastart.* TO 'jpauser'@'localhost';
 GRANT ALL PRIVILEGES ON jpastart.* TO 'jpauser'@'%';
 ```
+
+## References
+
+* [kotlin(+JPA) entity 에서 setter 를 막을 수 있을까](https://multifrontgarden.tistory.com/272)
