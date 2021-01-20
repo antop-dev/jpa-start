@@ -1,11 +1,12 @@
 package jpastart.guide.model
 
+import jpastart.JpaTestBase
 import jpastart.jpa.EMF
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.hasSize
 import org.junit.jupiter.api.Test
 
-class SightTest {
+class SightTest : JpaTestBase() {
 
     @Test
     fun orderBy() {
