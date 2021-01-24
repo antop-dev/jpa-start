@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="jpastart" transaction-type="RESOURCE_LOCAL">
+        <class>jpastart.jpa.reserve.User</class>
+        <class>jpastart.jpa.reserve.MembershipCard</class>
+        <class>jpastart.jpa.reserve.Hotel</class>
+        <class>jpastart.jpa.reserve.Review</class>
+        <class>jpastart.jpa.team.Player</class>
+        <class>jpastart.jpa.team.Team</class>
+        <class>jpastart.jpa.guide.Itinerary</class>
+        <class>jpastart.jpa.guide.UserBestSight</class>
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"/>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:log4jdbc:mariadb://localhost:3306/jpastart?characterEncoding=utf8"/>
+            <property name="javax.persistence.jdbc.user" value="jpauser"/>
+            <property name="javax.persistence.jdbc.password" value="jpapass"/>
+
+            <property name="hibernate.show_sql" value="false"/>
+            <!-- https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/dialect/package-summary.html -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDB103Dialect"/>
+
+            <property name="hibernate.c3p0.min_size" value="5"/>
+            <property name="hibernate.c3p0.max_size" value="50"/>
+            <property name="hibernate.c3p0.timeout" value="500"/>
+            <property name="hibernate.c3p0.idle_test_period" value="2000"/>
+        </properties>
+    </persistence-unit>
+</persistence>
