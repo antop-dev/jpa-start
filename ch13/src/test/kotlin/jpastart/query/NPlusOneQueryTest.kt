@@ -2,7 +2,7 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.reserve.MembershipCard
+import jpastart.reserve.MembershipCard
 import org.junit.jupiter.api.Test
 
 internal class NPlusOneQueryTest : JpaTestBase() {

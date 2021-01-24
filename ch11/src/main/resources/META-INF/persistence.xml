@@ -2,8 +2,8 @@
 
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
     <persistence-unit name="jpastart" transaction-type="RESOURCE_LOCAL">
-        <class>jpastart.jpa.reserve.model.MembershipCard</class>
-        <class>jpastart.jpa.reserve.model.User</class>
+        <class>jpastart.reserve.model.MembershipCard</class>
+        <class>jpastart.reserve.model.User</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"/>

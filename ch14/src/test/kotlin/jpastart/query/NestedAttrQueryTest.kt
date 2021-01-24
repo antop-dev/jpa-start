@@ -2,8 +2,8 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.guide.UserBestSight
-import jpastart.jpa.reserve.User
+import jpastart.guide.UserBestSight
+import jpastart.reserve.User
 import org.junit.jupiter.api.Test
 
 class NestedAttrQueryTest : JpaTestBase() {

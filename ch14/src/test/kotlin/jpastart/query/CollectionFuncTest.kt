@@ -2,8 +2,8 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.guide.Itinerary
-import jpastart.jpa.team.Team
+import jpastart.guide.Itinerary
+import jpastart.team.Team
 import org.junit.jupiter.api.Test
 
 class CollectionFuncTest : JpaTestBase() {

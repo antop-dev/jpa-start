@@ -3,7 +3,7 @@ package jpastart.query
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
 import jpastart.jpa.common.IdName
-import jpastart.jpa.team.Player
+import jpastart.team.Player
 import org.junit.jupiter.api.Test
 
 class SelectColumnsTest : JpaTestBase() {

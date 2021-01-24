@@ -2,9 +2,9 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.reserve.Hotel
-import jpastart.jpa.team.Player
-import jpastart.jpa.team.Team
+import jpastart.reserve.Hotel
+import jpastart.team.Player
+import jpastart.team.Team
 import org.junit.jupiter.api.Test
 
 internal class NamedQueryTest : JpaTestBase() {

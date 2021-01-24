@@ -2,10 +2,10 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.guide.UserBestSight
-import jpastart.jpa.reserve.User
-import jpastart.jpa.team.Player
-import jpastart.jpa.team.Team
+import jpastart.guide.UserBestSight
+import jpastart.reserve.User
+import jpastart.team.Player
+import jpastart.team.Team
 import org.junit.jupiter.api.Test
 import javax.persistence.criteria.Predicate
 

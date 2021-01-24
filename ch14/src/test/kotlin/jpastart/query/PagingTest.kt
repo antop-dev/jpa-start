@@ -2,8 +2,8 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.reserve.Hotel
-import jpastart.jpa.reserve.Review
+import jpastart.reserve.Hotel
+import jpastart.reserve.Review
 import org.junit.jupiter.api.Test
 
 class PagingTest : JpaTestBase() {

@@ -2,11 +2,11 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.reserve.Hotel
-import jpastart.jpa.reserve.Review
-import jpastart.jpa.reserve.User
-import jpastart.jpa.team.Player
-import jpastart.jpa.team.Team
+import jpastart.reserve.Hotel
+import jpastart.reserve.Review
+import jpastart.reserve.User
+import jpastart.team.Player
+import jpastart.team.Team
 import org.junit.jupiter.api.Test
 
 class CollectionQueryTest : JpaTestBase() {

@@ -2,8 +2,8 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.reserve.MembershipCard
-import jpastart.jpa.reserve.User
+import jpastart.reserve.MembershipCard
+import jpastart.reserve.User
 import org.junit.jupiter.api.Test
 import javax.persistence.criteria.JoinType
 

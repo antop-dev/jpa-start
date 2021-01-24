@@ -2,14 +2,14 @@
 
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
     <persistence-unit name="jpastart" transaction-type="RESOURCE_LOCAL">
-        <class>jpastart.jpa.team.Team</class>
-        <class>jpastart.jpa.team.Player</class>
-        <class>jpastart.jpa.loc.Location</class>
-        <class>jpastart.jpa.loc.Engineer</class>
-        <class>jpastart.jpa.loc.Location3</class>
-        <class>jpastart.jpa.loc.Engineer3</class>
-        <class>jpastart.jpa.perf.Performance</class>
-        <class>jpastart.jpa.perf.Person</class>
+        <class>jpastart.team.Team</class>
+        <class>jpastart.team.Player</class>
+        <class>jpastart.loc.Location</class>
+        <class>jpastart.loc.Engineer</class>
+        <class>jpastart.loc.Location3</class>
+        <class>jpastart.loc.Engineer3</class>
+        <class>jpastart.perf.Performance</class>
+        <class>jpastart.perf.Person</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"/>

@@ -1,12 +1,13 @@
 package jpastart.reserve.application
 
+import jpastart.JpaTestBase
 import jpastart.reserve.model.Grade
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
 import org.hamcrest.Matchers.hasSize
 import org.junit.jupiter.api.Test
 
-internal class GetHotelSummaryServiceTest {
+class GetHotelSummaryServiceTest : JpaTestBase() {
     private val service = GetHotelSummaryService()
 
     @Test

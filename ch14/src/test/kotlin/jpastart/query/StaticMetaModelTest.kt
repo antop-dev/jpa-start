@@ -2,8 +2,8 @@ package jpastart.query
 
 import jpastart.JpaTestBase
 import jpastart.jpa.EMF
-import jpastart.jpa.reserve.Review
-import jpastart.jpa.reserve.Review_
+import jpastart.reserve.Review
+import jpastart.reserve.Review_
 import org.junit.jupiter.api.Test
 import java.time.LocalDateTime
 
