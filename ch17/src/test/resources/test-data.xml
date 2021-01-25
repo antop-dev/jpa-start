@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="user">
+        <column>email</column>
+        <column>name</column>
+        <column>create_date</column>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>최범균</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+        <row>
+            <value>gildong@dooly.net</value>
+            <value>고길동</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+        <row>
+            <value>crazy@crazy.net</value>
+            <value>크레이지</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+    </table>
+
+    <table name="hotel">
+        <column>id</column>
+        <column>name</column>
+        <column>grade</column>
+        <column>zipcode</column>
+        <column>address1</column>
+        <column>address2</column>
+        <row>
+            <value>H100-01</value>
+            <value>베스트웨스턴 구로호텔1</value>
+            <value>STAR4</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 121-1</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>베스트웨스턴 구로호텔2</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 122-1</value>
+        </row>
+        <row>
+            <value>H100-03</value>
+            <value>베스트웨스턴 구로호텔3</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 123-1</value>
+        </row>
+        <row>
+            <value>H100-04</value>
+            <value>베스트웨스턴 구로호텔4</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 124-1</value>
+        </row>
+        <row>
+            <value>H100-05</value>
+            <value>베스트웨스턴 구로호텔5</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 125-1</value>
+        </row>
+        <row>
+            <value>H100-06</value>
+            <value>베스트웨스턴 구로호텔6</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 126-1</value>
+        </row>
+        <row>
+            <value>H100-07</value>
+            <value>베스트웨스턴 구로호텔7</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 127-1</value>
+        </row>
+        <row>
+            <value>H100-08</value>
+            <value>베스트웨스턴 구로호텔8</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 128-1</value>
+        </row>
+        <row>
+            <value>H100-09</value>
+            <value>베스트웨스턴 구로호텔9</value>
+            <value>STAR7</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 129-1</value>
+        </row>
+        <row>
+            <value>H100-10</value>
+            <value>베스트웨스턴 구로호텔X</value>
+            <value>STAR3</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 130-1</value>
+        </row>
+    </table>
+
+</dataset>
